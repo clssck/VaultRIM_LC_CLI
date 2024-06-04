@@ -1,0 +1,63 @@
+{
+  "predefined_objects": {
+    "1": "application__v",
+    "2": "regulatory_objective__rim",
+    "3": "registration__rim",
+    "4": "registered_product__rim",
+    "5": "registered_active_ingredient__rim",
+    "6": "registratered_packaging__rim",
+    "7": "registered_shelf_life_and_storage__v"
+  },
+  "lifecycle_states": {
+    "application__v": {
+      "1": "active_state__c",
+      "2": "inactive_state__c"
+    },
+    "regulatory_objective__rim": {
+      "1": "health_authority_approved_state__rim",
+      "2": "in_progress_state__c",
+      "3": "inactive_state__c",
+      "4": "not_approved_state__c",
+      "5": "on_hold_by_ha_state__c",
+      "6": "on_hold_by_health_authority_state__c",
+      "7": "on_hold_by_mah_state__c",
+      "8": "planned_state__c",
+      "9": "procedure_end_opinion_state__c",
+      "10": "withdrawn_state__rim"
+    },
+    "registration__rim": {
+      "1": "approved_state1__c",
+      "2": "closed_state__c",
+      "3": "expired_state__c",
+      "4": "on_hold_state__c",
+      "5": "planned_state1__c",
+      "6": "suspended_state__c",
+      "7": "transferred_state__c",
+      "8": "withdrawn_state1__c"
+    },
+    "registered_product__rim": {
+      "1": "approved_state1__c",
+      "2": "planned_state1__c",
+      "3": "withdrawn_state__c"
+    },
+    "registered_active_ingredient__rim": {
+      "1": "approved_state1__c",
+      "2": "planned_state1__c",
+      "3": "withdrawn_state__c"
+    },
+    "registratered_packaging__rim": {
+      "1": "approved_state1__c",
+      "2": "planned_state1__c",
+      "3": "withdrawn_state__c"
+    },
+    "registered_shelf_life_and_storage__v": {
+      "1": "approved_state__c",
+      "2": "planned_state__c",
+      "3": "withdrawn_state__c"
+    }
+  },
+  "api_info": {
+    "vault_domain": "https://gedeonrichter-rim.veevavault.com",
+    "api_version": "v24.1"
+  }
+}
